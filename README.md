@@ -25,4 +25,12 @@ It's a single `index.html` — open it in a browser, or serve the folder. Everyt
 
 ## Deploy
 
-Connected to Netlify via continuous deployment — pushing to `main` triggers a deploy. `netlify.toml` sets the publish directory to the repo root with no build step.
+Live at **https://greatgate-link-converter.netlify.app** (Netlify, Marketing team).
+
+Deployed via the Netlify CLI:
+
+```
+netlify deploy --prod --dir=.
+```
+
+`netlify.toml` sets the publish directory to the repo root with no build step. To switch to push-to-deploy, connect the repo under the Netlify site's **Build & deploy → Continuous deployment** settings.
