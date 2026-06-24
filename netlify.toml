@@ -1,0 +1,4 @@
+# Static site — no build step. Serves index.html from the repo root.
+[build]
+  publish = "."
+  command = ""
